@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Monk.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MonkStoreContainer">
+    <EntitySet Name="Monks" EntityType="Monk.Store.Monks" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Monks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cid" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Religion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Blood" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SWno" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Fname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Lname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Bdate" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Age" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Pno" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Htown" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Tribe" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Bparent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FFname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FLname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Fage" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Ftribe" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MFname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MLname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Mage" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Mtribe" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Sib_num" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Sib_ord" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Sib_men" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Sib_women" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+</Schema>

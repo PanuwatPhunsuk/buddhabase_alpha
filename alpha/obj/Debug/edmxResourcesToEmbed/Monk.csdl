@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Monk" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="MonkContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Monks" EntityType="Monk.Monk" />
+  </EntityContainer>
+  <EntityType Name="Monk">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cid" Type="String" Nullable="false" />
+    <Property Name="Religion" Type="String" Nullable="false" />
+    <Property Name="Blood" Type="String" Nullable="false" />
+    <Property Name="SWno" Type="String" Nullable="false" />
+    <Property Name="Fname" Type="String" Nullable="false" />
+    <Property Name="Lname" Type="String" Nullable="false" />
+    <Property Name="Bdate" Type="String" Nullable="false" />
+    <Property Name="Age" Type="String" Nullable="false" />
+    <Property Name="Pno" Type="String" Nullable="false" />
+    <Property Name="Htown" Type="String" Nullable="false" />
+    <Property Name="Tribe" Type="String" Nullable="false" />
+    <Property Name="Bparent" Type="String" Nullable="false" />
+    <Property Name="FFname" Type="String" Nullable="false" />
+    <Property Name="FLname" Type="String" Nullable="false" />
+    <Property Name="Fage" Type="String" Nullable="false" />
+    <Property Name="Ftribe" Type="String" Nullable="false" />
+    <Property Name="MFname" Type="String" Nullable="false" />
+    <Property Name="MLname" Type="String" Nullable="false" />
+    <Property Name="Mage" Type="String" Nullable="false" />
+    <Property Name="Mtribe" Type="String" Nullable="false" />
+    <Property Name="Sib_num" Type="String" Nullable="false" />
+    <Property Name="Sib_ord" Type="String" Nullable="false" />
+    <Property Name="Sib_men" Type="String" Nullable="false" />
+    <Property Name="Sib_women" Type="String" Nullable="false" />
+  </EntityType>
+</Schema>

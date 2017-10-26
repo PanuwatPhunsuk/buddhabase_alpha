@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MonkStoreContainer" CdmEntityContainer="MonkContainer">
+    <EntitySetMapping Name="Monks">
+      <EntityTypeMapping TypeName="IsTypeOf(Monk.Monk)">
+        <MappingFragment StoreEntitySet="Monks">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="Religion" ColumnName="Religion" />
+          <ScalarProperty Name="Blood" ColumnName="Blood" />
+          <ScalarProperty Name="SWno" ColumnName="SWno" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="Lname" ColumnName="Lname" />
+          <ScalarProperty Name="Bdate" ColumnName="Bdate" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Pno" ColumnName="Pno" />
+          <ScalarProperty Name="Htown" ColumnName="Htown" />
+          <ScalarProperty Name="Tribe" ColumnName="Tribe" />
+          <ScalarProperty Name="Bparent" ColumnName="Bparent" />
+          <ScalarProperty Name="FFname" ColumnName="FFname" />
+          <ScalarProperty Name="FLname" ColumnName="FLname" />
+          <ScalarProperty Name="Fage" ColumnName="Fage" />
+          <ScalarProperty Name="Ftribe" ColumnName="Ftribe" />
+          <ScalarProperty Name="MFname" ColumnName="MFname" />
+          <ScalarProperty Name="MLname" ColumnName="MLname" />
+          <ScalarProperty Name="Mage" ColumnName="Mage" />
+          <ScalarProperty Name="Mtribe" ColumnName="Mtribe" />
+          <ScalarProperty Name="Sib_num" ColumnName="Sib_num" />
+          <ScalarProperty Name="Sib_ord" ColumnName="Sib_ord" />
+          <ScalarProperty Name="Sib_men" ColumnName="Sib_men" />
+          <ScalarProperty Name="Sib_women" ColumnName="Sib_women" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
